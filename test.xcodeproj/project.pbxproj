@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		690F2D171DE7BB51000AAD6A /* VideoLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F2D161DE7BB51000AAD6A /* VideoLauncher.swift */; };
 		690F2D191DEA4FCD000AAD6A /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F2D181DEA4FCD000AAD6A /* VideoPlayerView.swift */; };
+		690F2D1B1DEA5345000AAD6A /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F2D1A1DEA5345000AAD6A /* Setting.swift */; };
 		6935CB301DDB1E1300881C09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6935CB2F1DDB1E1300881C09 /* AppDelegate.swift */; };
 		6935CB321DDB1E1300881C09 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6935CB311DDB1E1300881C09 /* HomeController.swift */; };
 		6935CB351DDB1E1300881C09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6935CB331DDB1E1300881C09 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 /* Begin PBXFileReference section */
 		690F2D161DE7BB51000AAD6A /* VideoLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLauncher.swift; sourceTree = "<group>"; };
 		690F2D181DEA4FCD000AAD6A /* VideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		690F2D1A1DEA5345000AAD6A /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		6935CB2C1DDB1E1300881C09 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6935CB2F1DDB1E1300881C09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6935CB311DDB1E1300881C09 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				6979BE5D1DE6723F0007BDC7 /* SafeJsonObject.swift */,
 				6935CB6B1DE03D3800881C09 /* Video.swift */,
 				69C1825A1DE10733009A3023 /* Channel.swift */,
+				690F2D1A1DEA5345000AAD6A /* Setting.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				69C1825B1DE10733009A3023 /* Channel.swift in Sources */,
 				69C952FD1DE426B100F1287E /* APIService.swift in Sources */,
 				6935CB651DE0218E00881C09 /* MenuBar.swift in Sources */,
+				690F2D1B1DEA5345000AAD6A /* Setting.swift in Sources */,
 				690F2D171DE7BB51000AAD6A /* VideoLauncher.swift in Sources */,
 				6979BE5E1DE6723F0007BDC7 /* SafeJsonObject.swift in Sources */,
 			);

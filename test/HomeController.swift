@@ -73,7 +73,7 @@ class HomeCollection: UICollectionViewController,UICollectionViewDelegateFlowLay
     
     //menu bar
     fileprivate func setupMenuBar(){
-        navigationController?.hidesBarsOnSwipe = true
+        //navigationController?.hidesBarsOnSwipe = true
         
         let cover = UIView()
         cover.backgroundColor = UIColor.rgb(red: 230, green: 32, blue: 31)
@@ -130,8 +130,9 @@ class HomeCollection: UICollectionViewController,UICollectionViewDelegateFlowLay
             identifier = subscriptionCellId
         }else{
             identifier = cellId
-        }
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath)
+        } 
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as! FeedCell
+        cell.homeController = self
         return cell
     }
     
@@ -141,22 +142,24 @@ class HomeCollection: UICollectionViewController,UICollectionViewDelegateFlowLay
     
     ////scroll
     override func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        //navigationController?.setNavigationBarHidden(false, animated: true)
+        
         menuBar.horizontalBarLeftAnchorConstraint?.constant = scrollView.contentOffset.x / 4
     }
     
     func scrollToIndex(index: Int){
         let indexPath = IndexPath(item: index, section: 0)
-        setTitleForInde(index: index)
+        setTitleForIndex(index: index)
         collectionView?.scrollToItem(at: indexPath, at: UICollectionViewScrollPosition(), animated: true)
     }
     
     override func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
         let indexPath = IndexPath(item: Int(targetContentOffset.pointee.x/view.frame.width), section: 0)
         menuBar.menu.selectItem(at: indexPath, animated: true, scrollPosition: UICollectionViewScrollPosition())
-        setTitleForInde(index: indexPath.item)
+        setTitleForIndex(index: indexPath.item)
     }
     
-    private func setTitleForInde(index: Int){
+    private func setTitleForIndex(index: Int){
         if let titleLabel = navigationItem.titleView as? UILabel{
             titleLabel.text = "  \(titles[index])"
         }

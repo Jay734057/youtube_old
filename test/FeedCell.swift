@@ -25,6 +25,8 @@ class FeedCell: BaseCell,UICollectionViewDelegate,UICollectionViewDataSource,UIC
     
     var videos: [Video]?
     
+    var homeController:HomeCollection?
+    
     override func setupViews() {
         super.setupViews()
         
@@ -71,5 +73,24 @@ class FeedCell: BaseCell,UICollectionViewDelegate,UICollectionViewDataSource,UIC
             let videoLauncher = VideoLauncher()
             videoLauncher.showVideoView()
 
+    }
+    
+    private var lastContentOffset: CGFloat = 0
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        if (self.lastContentOffset - collection.contentOffset.y > 100) {
+            // move up
+            //print("up")
+            homeController?.navigationController?.setNavigationBarHidden(false, animated: true)
+        }
+        else if (self.lastContentOffset < collection.contentOffset.y - 100) {
+            // move down
+            //print("down")
+            homeController?.navigationController?.setNavigationBarHidden(true, animated: true)
+            
+        }
+        
+        // update the new position acquired
+        self.lastContentOffset = scrollView.contentOffset.y
     }
 }

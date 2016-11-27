@@ -21,6 +21,19 @@ class SettingsLauncher: NSObject,UICollectionViewDataSource,UICollectionViewDele
     
     var homeController:HomeCollection?
     
+    let cellId = "cellId"
+    
+    let settings: [Setting] = {
+        return [Setting(name: .Setting , imageName: "settings"),
+                Setting(name: .Privacy , imageName: "privacy"),
+                Setting(name: .Feedback , imageName: "feedback"),
+                Setting(name: .Help , imageName: "help"),
+                Setting(name: .Switch , imageName: "switch_account"),
+                Setting(name: .Cancel , imageName: "cancel")]
+    }()
+    
+    let cellHeight: CGFloat = 50
+    
     func showSettings(){
         if let window = UIApplication.shared.keyWindow{
             
@@ -71,7 +84,7 @@ class SettingsLauncher: NSObject,UICollectionViewDataSource,UICollectionViewDele
         collectionView.register(SettingCell.self, forCellWithReuseIdentifier: cellId)
     }
     
-    
+    //collection view
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return settings.count
     }
@@ -95,39 +108,9 @@ class SettingsLauncher: NSObject,UICollectionViewDataSource,UICollectionViewDele
         handleDismiss(setting: self.settings[indexPath.item])
     }
     
-    let cellId = "cellId"
     
-    let settings: [Setting] = {
-        return [Setting(name: .Setting , imageName: "settings"),
-                Setting(name: .Privacy , imageName: "privacy"),
-                Setting(name: .Feedback , imageName: "feedback"),
-                Setting(name: .Help , imageName: "help"),
-                Setting(name: .Switch , imageName: "switch_account"),
-                Setting(name: .Cancel , imageName: "cancel")]
-    }()
-    
-    let cellHeight: CGFloat = 50
 }
 
-class Setting: NSObject{
-    let name: SettingName
-    let imageName: String
-    
-    init(name:SettingName,imageName:String) {
-        self.name = name
-        self.imageName = imageName
-    }
-}
-
-enum SettingName: String {
-    case Cancel = "Cancel"
-    case Setting = "Setting"
-    case Privacy = "Terms & privacy policy"
-    case Feedback = "Send Feedback"
-    case Help = "Help"
-    case Switch = "Switch Account"
-    
-}
 
 
 
