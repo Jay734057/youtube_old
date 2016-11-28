@@ -54,17 +54,17 @@
 		690F2D161DE7BB51000AAD6A /* VideoLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLauncher.swift; sourceTree = "<group>"; };
 		690F2D181DEA4FCD000AAD6A /* VideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		690F2D1A1DEA5345000AAD6A /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
-		6935CB2C1DDB1E1300881C09 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6935CB2C1DDB1E1300881C09 /* youtube_old.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youtube_old.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6935CB2F1DDB1E1300881C09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6935CB311DDB1E1300881C09 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		6935CB341DDB1E1300881C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6935CB361DDB1E1300881C09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6935CB391DDB1E1300881C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6935CB3B1DDB1E1300881C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6935CB401DDB1E1300881C09 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6935CB401DDB1E1300881C09 /* youtube_oldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = youtube_oldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6935CB441DDB1E1300881C09 /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
 		6935CB461DDB1E1300881C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6935CB4B1DDB1E1300881C09 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6935CB4B1DDB1E1300881C09 /* youtube_oldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = youtube_oldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6935CB4F1DDB1E1300881C09 /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		6935CB511DDB1E1300881C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6935CB5E1DDFE68000881C09 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
@@ -121,9 +121,9 @@
 		6935CB2D1DDB1E1300881C09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6935CB2C1DDB1E1300881C09 /* test.app */,
-				6935CB401DDB1E1300881C09 /* testTests.xctest */,
-				6935CB4B1DDB1E1300881C09 /* testUITests.xctest */,
+				6935CB2C1DDB1E1300881C09 /* youtube_old.app */,
+				6935CB401DDB1E1300881C09 /* youtube_oldTests.xctest */,
+				6935CB4B1DDB1E1300881C09 /* youtube_oldUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,9 +219,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6935CB2B1DDB1E1200881C09 /* test */ = {
+		6935CB2B1DDB1E1200881C09 /* youtube_old */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6935CB541DDB1E1300881C09 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 6935CB541DDB1E1300881C09 /* Build configuration list for PBXNativeTarget "youtube_old" */;
 			buildPhases = (
 				6935CB281DDB1E1200881C09 /* Sources */,
 				6935CB291DDB1E1200881C09 /* Frameworks */,
@@ -231,14 +231,14 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = youtube_old;
 			productName = test;
-			productReference = 6935CB2C1DDB1E1300881C09 /* test.app */;
+			productReference = 6935CB2C1DDB1E1300881C09 /* youtube_old.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6935CB3F1DDB1E1300881C09 /* testTests */ = {
+		6935CB3F1DDB1E1300881C09 /* youtube_oldTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6935CB571DDB1E1300881C09 /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildConfigurationList = 6935CB571DDB1E1300881C09 /* Build configuration list for PBXNativeTarget "youtube_oldTests" */;
 			buildPhases = (
 				6935CB3C1DDB1E1300881C09 /* Sources */,
 				6935CB3D1DDB1E1300881C09 /* Frameworks */,
@@ -249,14 +249,14 @@
 			dependencies = (
 				6935CB421DDB1E1300881C09 /* PBXTargetDependency */,
 			);
-			name = testTests;
+			name = youtube_oldTests;
 			productName = testTests;
-			productReference = 6935CB401DDB1E1300881C09 /* testTests.xctest */;
+			productReference = 6935CB401DDB1E1300881C09 /* youtube_oldTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6935CB4A1DDB1E1300881C09 /* testUITests */ = {
+		6935CB4A1DDB1E1300881C09 /* youtube_oldUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6935CB5A1DDB1E1300881C09 /* Build configuration list for PBXNativeTarget "testUITests" */;
+			buildConfigurationList = 6935CB5A1DDB1E1300881C09 /* Build configuration list for PBXNativeTarget "youtube_oldUITests" */;
 			buildPhases = (
 				6935CB471DDB1E1300881C09 /* Sources */,
 				6935CB481DDB1E1300881C09 /* Frameworks */,
@@ -267,9 +267,9 @@
 			dependencies = (
 				6935CB4D1DDB1E1300881C09 /* PBXTargetDependency */,
 			);
-			name = testUITests;
+			name = youtube_oldUITests;
 			productName = testUITests;
-			productReference = 6935CB4B1DDB1E1300881C09 /* testUITests.xctest */;
+			productReference = 6935CB4B1DDB1E1300881C09 /* youtube_oldUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -301,7 +301,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6935CB271DDB1E1200881C09 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 6935CB271DDB1E1200881C09 /* Build configuration list for PBXProject "youtube_old" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -314,9 +314,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6935CB2B1DDB1E1200881C09 /* test */,
-				6935CB3F1DDB1E1300881C09 /* testTests */,
-				6935CB4A1DDB1E1300881C09 /* testUITests */,
+				6935CB2B1DDB1E1200881C09 /* youtube_old */,
+				6935CB3F1DDB1E1300881C09 /* youtube_oldTests */,
+				6935CB4A1DDB1E1300881C09 /* youtube_oldUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -396,12 +396,12 @@
 /* Begin PBXTargetDependency section */
 		6935CB421DDB1E1300881C09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6935CB2B1DDB1E1200881C09 /* test */;
+			target = 6935CB2B1DDB1E1200881C09 /* youtube_old */;
 			targetProxy = 6935CB411DDB1E1300881C09 /* PBXContainerItemProxy */;
 		};
 		6935CB4D1DDB1E1300881C09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6935CB2B1DDB1E1200881C09 /* test */;
+			target = 6935CB2B1DDB1E1200881C09 /* youtube_old */;
 			targetProxy = 6935CB4C1DDB1E1300881C09 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -560,7 +560,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = UniMelb.734057.testTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/youtube_old.app/youtube_old";
 			};
 			name = Debug;
 		};
@@ -575,7 +575,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = UniMelb.734057.testTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/youtube_old.app/youtube_old";
 			};
 			name = Release;
 		};
@@ -610,7 +610,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6935CB271DDB1E1200881C09 /* Build configuration list for PBXProject "test" */ = {
+		6935CB271DDB1E1200881C09 /* Build configuration list for PBXProject "youtube_old" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6935CB521DDB1E1300881C09 /* Debug */,
@@ -619,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6935CB541DDB1E1300881C09 /* Build configuration list for PBXNativeTarget "test" */ = {
+		6935CB541DDB1E1300881C09 /* Build configuration list for PBXNativeTarget "youtube_old" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6935CB551DDB1E1300881C09 /* Debug */,
@@ -628,7 +628,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6935CB571DDB1E1300881C09 /* Build configuration list for PBXNativeTarget "testTests" */ = {
+		6935CB571DDB1E1300881C09 /* Build configuration list for PBXNativeTarget "youtube_oldTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6935CB581DDB1E1300881C09 /* Debug */,
@@ -637,7 +637,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6935CB5A1DDB1E1300881C09 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
+		6935CB5A1DDB1E1300881C09 /* Build configuration list for PBXNativeTarget "youtube_oldUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6935CB5B1DDB1E1300881C09 /* Debug */,

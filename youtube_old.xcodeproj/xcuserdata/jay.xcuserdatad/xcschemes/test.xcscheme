@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6935CB2B1DDB1E1200881C09"
-               BuildableName = "test.app"
-               BlueprintName = "test"
-               ReferencedContainer = "container:test.xcodeproj">
+               BuildableName = "youtube_old.app"
+               BlueprintName = "youtube_old"
+               ReferencedContainer = "container:youtube_old.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6935CB3F1DDB1E1300881C09"
-               BuildableName = "testTests.xctest"
-               BlueprintName = "testTests"
-               ReferencedContainer = "container:test.xcodeproj">
+               BuildableName = "youtube_oldTests.xctest"
+               BlueprintName = "youtube_oldTests"
+               ReferencedContainer = "container:youtube_old.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6935CB4A1DDB1E1300881C09"
-               BuildableName = "testUITests.xctest"
-               BlueprintName = "testUITests"
-               ReferencedContainer = "container:test.xcodeproj">
+               BuildableName = "youtube_oldUITests.xctest"
+               BlueprintName = "youtube_oldUITests"
+               ReferencedContainer = "container:youtube_old.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6935CB2B1DDB1E1200881C09"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "youtube_old.app"
+            BlueprintName = "youtube_old"
+            ReferencedContainer = "container:youtube_old.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6935CB2B1DDB1E1200881C09"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "youtube_old.app"
+            BlueprintName = "youtube_old"
+            ReferencedContainer = "container:youtube_old.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6935CB2B1DDB1E1200881C09"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "youtube_old.app"
+            BlueprintName = "youtube_old"
+            ReferencedContainer = "container:youtube_old.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
