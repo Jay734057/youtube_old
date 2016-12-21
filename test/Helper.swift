@@ -40,6 +40,8 @@ class customUIImageView: UIImageView{
     
     func loadImageUsingUrlString( _ urlString: String) {
         
+        self.image = nil
+        
         imageUrlString = urlString
         
         let url = URL(string: urlString)
@@ -54,7 +56,7 @@ class customUIImageView: UIImageView{
         URLSession.shared.dataTask(with: url!, completionHandler: { (data, respones, error) in
             
             if error != nil {
-                print(error)
+                print(error!)
                 return
             }
             DispatchQueue.main.async(execute: {
